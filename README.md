@@ -1,7 +1,17 @@
 # RaspPi-TorRouter
-Automated script to convert a Raspberry Pi into a Tor (Onion) Router
+Automated script to convert a Raspberry Pi into a Tor (Onion) Router. 
 
 DISCLAIMER: I have written this tutorial and uploaded this script for educational and research purposes only. Browsing on Tor networks or websites is your sole responsibility and with respect to rules and policies within your region or jurisdiction. 
+
+I have tired to explain the steps in this tutorial in a simple manner as possible for the general non-technical auidence. Reviews and suggestions are most welcome. 
+
+Introduction: 
+
+Tor - 
+Tor is free and open-source software for enabling anonymous communication. The name is derived from an acronym for the original software project name "The Onion Router".[1][2]Tor directs Internet traffic through a free, worldwide, volunteer overlay network consisting of more than seven thousand relays[3] to conceal a user's location and usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity to the user: this includes "visits to Web sites, online posts, instant messages, and other communication forms".[4] Tor's intended use is to protect the personal privacy of its users, as well as their freedom and ability to conduct confidential communication by keeping their Internet activities unmonitored.
+
+Raspberry Pi - 
+The Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to promote teaching of basic computer science in schools and in developing countries. [5][6][7]
 
 Tools required: 
 1.	A Raspberry Pi: https://www.raspberrypi.org/products/ 
@@ -25,7 +35,6 @@ Installing Raspbian to the Raspberry Pi:
 6.	Power on the Raspberry Pi and make sure it is connected to an internet so that all the latest packages are downloaded and installed. 
 7.	Follow the on-screen instructions which will guide you through the rest of the setup process. 
 
- 
 Enabling SSH: 
 •	SSH must be enabled to ping or remotely log into the Pi
 
@@ -43,7 +52,7 @@ Automated Script:
 
 1.	Open the terminal 
 2.	Type in cd Desktop
-3.	Download the script to your desktop using the wget command. i.e, wget https://github.com/WZcabral/RaspPi-TorRouter.git
+3.	Download the script to your desktop using the git clone command. i.e, git clone https://github.com/WZcabral/RaspPi-TorRouter.git
 4.	Next launch the script via using sudo ./installTor.sh
 5.	Follow the onscreen instructions and you are done.
 
@@ -51,3 +60,12 @@ Checking Tor status:
 1.	Now connect to the Tor router like you would connect to any other router using the SSID and password you provided.
 2.	Open a browser and check if you are on the Tor network via: https://check.torproject.org/
 3.	See attached Screenshot. 
+
+References:
+1. Li, Bingdong; Erdin, Esra; Güneş, Mehmet Hadi; Bebis, George; Shipley, Todd (14 June 2011). "An Analysis of Anonymity Usage". In Domingo-Pascual, Jordi; Shavitt, Yuval; Uhlig, Steve (eds.). Traffic Monitoring and Analysis: Third International Workshop, TMA 2011, Vienna, Austria, April 27, 2011, Proceedings. Berlin: Springer-Verlag. pp. 113–116. ISBN 978-3-642-20304-6. Retrieved 6 August 2012.
+2. "Why is it called Tor?". Tor Project | Support. Retrieved 18 January 2016.
+3. "Tor Network Status". Retrieved 14 January 2016.
+4. Glater, Jonathan D. (25 January 2006). "Privacy for People Who Don't Show Their Navels". The New York Times. Archived from the original on 31 January 2013. Retrieved 13 May 2011.
+5. Cellan-Jones, Rory (5 May 2011). "A£15 computer to inspire young programmers". BBC News.
+6. Price, Peter (3 June 2011). "Can a £15 computer solve the programming gap?". BBC Click. Retrieved 2 July 2011.
+7. Bush, Steve (25 May 2011). "Dongle computer lets kids discover programming on a TV". Electronics Weekly. Retrieved 11 July 2011
