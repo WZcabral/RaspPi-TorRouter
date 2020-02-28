@@ -43,7 +43,7 @@ Automated Script:
 
 1.	Open the terminal 
 2.	Type in cd Desktop
-3.	Download the script to your desktop using the wget command
+3.	Download the script to your desktop using the wget command. i.e, wget https://github.com/WZcabral/RaspPi-TorRouter.git
 4.	Next launch the script via using sudo ./installTor.sh
 5.	Follow the onscreen instructions and you are done.
 
